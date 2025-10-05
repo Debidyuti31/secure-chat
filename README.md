@@ -10,13 +10,7 @@ Features:
 5. Responsive and modern UI
 
 How It Works:
-1.User registers → generates public/private key pair.
-2.Message encryption → client encrypts messages using recipient’s public key.
-3.Encrypted message storage → server stores only ciphertext.
-4.Decryption → recipient decrypts message with their private key.
-
-Future Improvements:
-1.Group chats with end-to-end encryption
-2.Voice and video messaging
-3.Self-destructing messages
-4.Push notifications
+1. User registers → generates public/private key pair.
+2. Message encryption → client encrypts messages using recipient’s public key.
+3. Encrypted message storage → server stores only ciphertext.
+4. Decryption → recipient decrypts message with their private key.
