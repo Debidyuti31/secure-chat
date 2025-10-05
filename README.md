@@ -1,4 +1,3 @@
-# secure-chat
 # Secure Chat (End-to-End Encrypted Messaging)
 Secure Chat is a full-stack end-to-end encrypted messaging app. All messages are encrypted on the client-side and can only be decrypted by the intended recipient, keeping your conversations private.
 
