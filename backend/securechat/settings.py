@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "corsheaders",
     
     # Third-party apps
     "rest_framework",
@@ -53,6 +54,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
 ]
 
 ROOT_URLCONF = "securechat.urls"
@@ -137,3 +140,6 @@ REST_FRAMEWORK = {
         "rest_framework.parsers.JSONParser",
     )
 }
+
+# CORS settings for frontend
+CORS_ALLOW_ALL_ORIGINS = True
